@@ -17,7 +17,7 @@ churches <- c('Jaca Cathedral', 'Santa Maria de Eunate', 'San Pedro de la Rúa',
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
-  h1(),
+  h1("Churches on Northern Spain Camino de Santiago, 2023/01/29"),
   leafletOutput("Northern_Spain"),
   p(),
   p(),
